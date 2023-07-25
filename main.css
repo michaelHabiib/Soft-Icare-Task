@@ -1,0 +1,126 @@
+@media (min-width:576px) {
+  .container{
+    width: 540px !important;
+  }
+  table {
+    margin-left:0px ;
+  }
+}
+@media (min-width:768px) {
+  .container{
+    width: 720px !important;
+  }
+}
+@media (min-width:992px) {
+  .container{
+    width: 960px !important;
+  }
+}
+@media (min-width:1200px) {
+  .container{
+    width: 1140px !important;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: var(--section-light-background);
+}
+label{
+  display: block;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: -260px;
+  padding-bottom: 15px;
+}
+.countries{
+  width: 350px;
+  height: 45px;
+  text-align: left;
+  padding-left: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8PX;
+  font-size: 18px;
+}
+.countries option{
+  cursor: pointer;
+}
+.countries option:hover{
+  /* cursor: pointer; */
+  background-color: #F5F5F5 !important;
+  width: 500px;
+} 
+  .dropbox {
+    /* margin-right: 20px; */
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 15px;
+  }
+
+
+table {
+  margin: 0 auto;
+  /* width: 100%; */
+  border: 1px solid black;
+}
+th{
+  background-color: #646464;
+  color: white;
+  padding: 10px;
+}
+  
+td {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 8px;
+  }
+  /* tr:not(:last-of-type){
+    border-bottom: 1px solid black !important;
+
+  } */
+  
+  th:nth-child(1) {
+    width: 50%;
+  }
+  
+  th:nth-child(2), th:nth-child(3) {
+    width: 25%;
+  }
+  
+  button.delete {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  button.edit {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+  
+  button:hover {
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 40%);
+  }
+  
+  /* button:active {
+    background-color: #005cbf;
+  } */
